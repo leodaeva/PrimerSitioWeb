@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+    /* Asegúrate de especificar correctamente la ruta y el formato del archivo de la fuente */
+  }
+
+/* Estilos globales */
+body {
+  font-family: 'MiFuente', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #C9CEBD;
+}
+
+header {
+  background-color: #64403E;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo img {
+  height: 90px;
+  border-radius: 50%;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+    background-color: #838E83;
+    padding: 15px 65px 15px 15px; /* Valor del padding para cada lado: arriba, derecha, abajo, izquierda */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociales {
+    display: flex;
+}
+
+.redes-sociales a {
+    margin-left: 10px;
+}
+
+.redes-sociales img {
+    height: 30px;
+}
+
+.derechos-copyright {
+    text-align: right;
+}
+
+/* Estilos específicos de cada página */
+h1 {
+  color: #333;
+}
+
+/* Estilos de la página de inicio */
+.banner {
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    font-size: 18px;
+    max-width: 800px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content strong {
+    color: #2480b1;
+}
+
+.image-section {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-section img {
+    width: 500px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-right: 10px;
+  }
+  
+  .image-details {
+    flex: 1;
+  }
+  
+  .image-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .image-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .image-details li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+/* Estilos de la página de contacto */
+.contacto-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Estilos de la página de tienda */
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* Estilos de la página de tratamientos corporales */
+/* .tratamientos-list {
+  list-style-type: disc;
+} */
+
+.tratamientos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* padding: 60px 60px 60px 60px; */
+  padding-left: 20%;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.description-container {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tratamientos h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tratamientos p {
+  font-size: 18px;
+}
+
+/* Estilos de la página de conocenos */
+.conocenos-img {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
